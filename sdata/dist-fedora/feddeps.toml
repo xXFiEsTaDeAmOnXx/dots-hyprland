@@ -134,6 +134,12 @@ packages = [
 ]
 install_opts = ["--setopt=install_weak_deps=False"]
 
+[groups.quickshell]
+packages = [
+    "quickshell-git",
+    "matugen"
+]
+
 [groups.illogical-impulse]
 packages = [
     "quickshell-git",
